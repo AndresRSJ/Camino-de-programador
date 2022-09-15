@@ -1,0 +1,109 @@
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+/*Estilo general del documento*/
+body{
+    background-image:url(Fondo\ 2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    color:rgb(243, 243, 243);
+    overflow-x: hidden;  
+}
+/*Título y subtítulo*/
+.title, .subtitle{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px black;
+}
+/*Formulario completo*/
+.formulario{
+    width: 550px;
+    height: 1000px;;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/*Sección de datos de ususario*/
+.user{
+    display: inline-block;
+    margin-left: 2px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Configuraciónde los recuadro de datos*/
+.recuadros{
+    display: block;
+    font-size: 14px;
+    width: 90%;
+    height: 30px;
+    background-color: rgb(252, 252, 252);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+/*Planes de video*/
+.planes{
+    display: block;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    width: 200px;
+    height: 25px;
+    background-color:rgb(33, 187, 207);
+    border: 2px solid rgb(0, 0, 0); 
+    border-radius: 5px;
+}
+/*Lista de contenido que le gustaria ver al usuario*/
+.uList{
+    list-style: none;
+    margin-left: -30px;
+}
+/*Elementos de la lita*/
+.elementList{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    margin-bottom: 7px;
+
+}
+/*Desactivo los bordes de fieldset.*/
+.fieldset{
+    border: none;
+    margin-left: 10px;
+}
+/*Aplico bordes al div*/
+.box{
+    border: 2px solid rgb(255, 255, 255); 
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+/*Párrafos del formulario*/
+.parrafos{
+    margin-left: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Cuadro de texto con sugerencias o comentarios*/
+.sugerencias{
+    background-color: rgb(61, 165, 165);
+    border: 1px solid black;
+    color: white;
+}
+/*Botón de enviar*/
+input[type="submit"]{
+    display: block;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 60%;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+

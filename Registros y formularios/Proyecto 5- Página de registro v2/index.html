@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de subscripción</title>
+    <link rel="stylesheet" href="style-dist.css">
+</head>
+<body>
+    <h1 id="title" class="title">Formulario de subscripción premium</h1>
+    <p id="description" class="subtitle">!Gracias por pensar en contratar nuestro servicio premium!</p>
+    <form action="basededatos.php" id="survey-form" class="formulario">
+     <div class="box">
+      <fieldset class="fieldset"> 
+        <label for="name-user" class="user" id="name-label">Nombre </label>
+        <input type="text" id="name-user" name="Nombre" class="recuadros" placeholder=" Introduzca su nombre">
+        <label for="email-user" class="user" id="email-label">Correo Electrónico </label>
+        <input type="email" id="email-user" name="Correo" class="recuadros" placeholder=" Introduce tu correo electrónico">
+        <label for="age-user" class="user" id="number-label">Años (opcional) </label>
+        <input type="number" id="age-user" name="Edad" class="recuadros" placeholder=" Años" min="13" max="120">
+         <label for="dropdown" class="user"> Seleccione su rol actual </label>
+            <select name="rol" id="dropdown" class="recuadros">
+                <option disabled selected value>Seleccione su estado actual</option>
+                <option value="Alumno">Alumno</option>
+                <option value="Trabajo a tiempo completo">Trabajo a tiempo completo</option>
+                <option value="Estudiante de tiempo completo">Estudiante de tiempo completo</option>
+                <option value="Prefiero no decirlo">Prefiero no decirlo</option>
+                <option value="Otro">Otro</option>
+            </select>
+      </fieldset>
+      <fieldset class="fieldset">
+        <p class="parrafos">¿Que tipo de plan te gustaria contratar?</p>
+        <label for="oro" class="planes"><input type="radio" name="tipoDePlan" id="oro"> Oro Full-4K</label>
+        <label for="plata" class="planes"><input type="radio" name="tipoDePlan" id="plata"> Plata Full-HD 1080p</label>
+        <label for="bronce" class="planes"><input type="radio" name="tipoDePlan" id="bronce"> Bronce 720p-HD</label>
+      </fieldset>
+      <fieldset class="fieldset">
+      <p class="parrafos">¿Por que haz decidico contratar nuestros servicios?</p>
+      <label for="referrer">
+      <select name="referido" id="referrer" class="recuadros">
+        <option disabled selected value>Seleccione una opción</option>
+        <option value="Me lo recomendo un amigo">Me lo recomendó un amigo</option>
+        <option value="Llamó mi atención">Llamó mi atención</option>
+        <option value="Anuncios">Anuncios></option>
+        <option value="Opiniones de internet">Opiniones de internet</option>
+      </select>  
+    </label>
+  </fieldset>
+  <fieldset class="fieldset">
+    <p class="parrafos">¿Qué tipo de contenido te gustaria ver?(Marque lo que le parezca interesante)</p>
+    <ul class="uList">
+    <li class="elementList"><label for="drama"><input type="checkbox" id="drama" name="drama" value="drama"> Drama</label></li>
+    <li class="elementList"><label for="comedia"><input type="checkbox" id="comedia" name="comedia" value="comedia"> Comedia</label></li>
+    <li class="elementList"><label for="triste"><input type="checkbox" id="triste" name="triste" value="triste"> Triste</label></li>
+    <li class="elementList"><label for="policial"><input type="checkbox" id="policial" name="policial" value="policial"> Policial</label></li>
+    <li class="elementList"><label for="accion"><input type="checkbox" id="accion" name="accion" value="accion"> Acción</label></li>
+    <li class="elementList"><label for="heroes"><input type="checkbox" id="heroes" name="heroes" value="heroes"> Super Heroes</label></li>
+    <li class="elementList"><label for="documentales"><input type="checkbox" id="documentales" name="documentales" value="documentales"> Documentales</label></li>
+    <li class="elementList"><label for="tragicomedia"><input type="checkbox" id="tragicomedia" name="tragicomedia" value="tragicomedia"> Tragicomedia</label></li>
+    <li class="elementList"><label for="sketchs"><input type="checkbox" id="sketchs" name="sketchs" value="sketchs"> Sketchs</label></li>
+    <li class="elementList"><label for="historia"><input type="checkbox" id="historia" name="historia" value="historia"> Historia</label></li>
+    <li class="elementList"><label for="actualidad"><input type="checkbox" id="actualidad" name="actualidad" value="actualidad"> Actualidad</label></li>
+  </ul>
+  </fieldset>
+  <fieldset class="fieldset">
+    <p class="parrafos">¿Algún comentario o sugerencia?</p>
+    <label for="comentario" ><textarea class="sugerencias" name="comentario" id="comentario" cols="68" rows="10" placeholder="Ingrese su comentario o sugerencia"></textarea></label>
+  </fieldset>
+    <input type="submit" value="Enviar" id="submit">
+</div>
+    </form>
+    
+</body>
+</html>

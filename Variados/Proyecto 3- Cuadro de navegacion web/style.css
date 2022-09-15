@@ -1,0 +1,40 @@
+body {
+    font-style: Arial, helvetica;
+    font-size: 20px;
+    height: 1800px
+}
+
+.menu {    
+    list-style: none;
+    padding: 0px;
+    background-color: rgb(233, 87, 143);
+    max-width: 1000px;
+    margin: auto;
+    border: 5px solid rgb(231, 65, 129);
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover {
+    background-color: rgb(231, 71, 132);
+}
+
+.section1 {
+    display: inline-block;
+    text-align: center;;
+    width: 200px;
+    background-color: aqua;
+    position: relative;
+    top: 50px;
+    left: 600px;
+}
